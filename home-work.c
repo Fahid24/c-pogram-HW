@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main()
 {
@@ -46,6 +47,6 @@ int main()
     default:
         printf("you inter an invalid operator\n");
     }
-
+    getch();
     return 0;
 }
